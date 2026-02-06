@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajinkya S Veer | Software Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Effects -->
+    <div class="bg-effects">
+      <div class="stars"></div>
+      <div class="glow"></div>
+    </div>
+
+    <main class="bento-grid">
+      <!-- Profile Card (Large) -->
+      <div class="card profile-card" data-tilt>
+        <div class="card-content">
+          <div class="profile-header">
+            <div class="status-indicator">
+              <span class="ping"></span>
+              Available for work
+            </div>
+          </div>
+          <div class="profile-info">
+            <div class="img-wrapper">
+              <img
+                src="assets/profile.png"
+                alt="Ajinkya"
+                onerror="
+                  this.src =
+                    'https://ui-avatars.com/api/?name=Ajinkya+Veer&background=random'
+                "
+              />
+            </div>
+            <h1>Ajinkya S Veer</h1>
+            <p class="role">
+              Software Developer <span class="divider">|</span> MERN Stack
+              <span class="divider">|</span> Gen-AI
+            </p>
+            <p class="bio">
+              Results-driven Software Engineer with 4+ years of experience
+              building intelligent, automated, and scalable web solutions.
+            </p>
+          </div>
+          <div class="profile-actions">
+            <a href="assets/resume.pdf" class="btn primary-btn" target="_blank">
+              <i class="fa-solid fa-file-pdf"></i> Resume
+            </a>
+            <a href="#contact" class="btn secondary-btn">
+              <i class="fa-regular fa-envelope"></i> Contact
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Socials (Small) -->
+      <a
+        href="https://github.com/AjinkyaVeer007"
+        target="_blank"
+        class="card social-card github"
+        data-tilt
+      >
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/ajinkya-veer-0ba100238/"
+        target="_blank"
+        class="card social-card linkedin"
+        data-tilt
+      >
+        <i class="fa-brands fa-linkedin-in"></i>
+        <span>LinkedIn</span>
+      </a>
+
+      <!-- Tech Stack (Medium - Marquee) -->
+      <div class="card stack-card">
+        <h3>Tech Stack</h3>
+        <div class="marquee-wrapper">
+          <div class="marquee">
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-aws"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3"></i>
+            <i class="fa-solid fa-robot"></i>
+            <!-- Duplicate for seamless loop -->
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-aws"></i>
+            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3"></i>
+            <i class="fa-solid fa-robot"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience (Large/Tall) -->
+      <div class="card experience-card">
+        <div class="card-header">
+          <h2>Experience</h2>
+          <i
+            class="fa-solid fa-briefcase"
+            style="font-size: 1.5rem; color: var(--accent)"
+          ></i>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="date">May 2023 - Present</div>
+            <div class="company">Sapat International</div>
+            <div class="role">Software Developer</div>
+          </div>
+          <div class="timeline-item">
+            <div class="date">Dec 2021 - Apr 2023</div>
+            <div class="company">Planit</div>
+            <div class="role">Software Engineer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Location (Small) -->
+      <div class="card location-card" data-tilt>
+        <div class="map-bg"></div>
+        <div class="location-content">
+          <i class="fa-solid fa-location-dot"></i>
+          Navi Mumbai
+        </div>
+      </div>
+
+      <!-- Projects Header -->
+      <div class="section-title">
+        <h2>Personal Projects</h2>
+      </div>
+
+      <!-- Projects (Grid) -->
+      <a
+        href="https://github.com/AjinkyaVeer007/Mini-Cursor-AI"
+        target="_blank"
+        class="card project-card p1"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+          <h3>Mini Cursor IDE</h3>
+          <p>AI-powered coding environment.</p>
+          <div class="tags">
+            <span>AI</span>
+            <span>IDE</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://github.com/AjinkyaVeer007/RAG-NodeJs"
+        target="_blank"
+        class="card project-card p2"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-robot"></i></div>
+          <h3>RAG System</h3>
+          <p>Retrieval-Augmented Gen AI.</p>
+          <div class="tags">
+            <span>Node.js</span>
+            <span>RAG</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7300385703194976256/"
+        target="_blank"
+        class="card project-card p3"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Compare by AI</h3>
+          <p>Smart comparison tool.</p>
+          <div class="tags">
+            <span>Gen-AI</span>
+            <span>Tool</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7155894420339408898/"
+        target="_blank"
+        class="card project-card p4"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-utensils"></i></div>
+          <h3>HungerCracker</h3>
+          <p>Food related application.</p>
+          <div class="tags">
+            <span>App</span>
+            <span>Food</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <!-- Blogs Header -->
+      <div class="section-title">
+        <h2>Blogs</h2>
+      </div>
+
+      <!-- Blogs (Wide) -->
+      <!-- Blogs (Bento Grid) -->
+      <a
+        href="https://rag-system.hashnode.dev/retrieval-augmented-generation"
+        target="_blank"
+        class="card project-card b1"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-brain"></i></div>
+          <h3>RAG System Deep Dive</h3>
+          <p>Retrieval Augmented Generation.</p>
+          <div class="tags">
+            <span>AI</span>
+            <span>GenAI</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://seo-in-react-js.hashnode.dev/search-engine-optimization-in-react-js"
+        target="_blank"
+        class="card project-card b2"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-brands fa-react"></i></div>
+          <h3>SEO in React</h3>
+          <p>Optimizing React Apps.</p>
+          <div class="tags">
+            <span>React</span>
+            <span>SEO</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://ajinkyaveer.hashnode.dev/all-about-markdown"
+        target="_blank"
+        class="card project-card b3"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-brands fa-markdown"></i></div>
+          <h3>Mastering Markdown</h3>
+          <p>Guide to Markdown.</p>
+          <div class="tags">
+            <span>Docs</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://ajinkyaveer.hashnode.dev/selectors-in-css-easy-to-target"
+        target="_blank"
+        class="card project-card b4"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3>CSS Selectors</h3>
+          <p>Targeting elements efficiently.</p>
+          <div class="tags">
+            <span>CSS</span>
+            <span>Web</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://ajinkyaveer.hashnode.dev/position-elements-in-css-easy-to-understand"
+        target="_blank"
+        class="card project-card b5"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-layer-group"></i></div>
+          <h3>CSS Positioning</h3>
+          <p>Understanding layout mechanics.</p>
+          <div class="tags">
+            <span>CSS</span>
+            <span>Layout</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <!-- Certifications Header -->
+      <div class="section-title">
+        <h2>Certifications</h2>
+      </div>
+
+      <!-- Certifications (As Project Cards) -->
+      <a
+        href="https://www.linkedin.com/posts/ajinkya-veer-0ba100238_full-stack-generative-and-agentic-ai-with-activity-7410959672494411776-XNw3/"
+        target="_blank"
+        class="card project-card p1"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Generative AI</h3>
+          <p>Udemy - Agentic AI</p>
+          <div class="tags">
+            <span>Cert</span>
+            <span>AI</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/posts/ajinkya-veer-0ba100238_full-stack-javascript-web-developer-activity-7025796835805925376-1fI_/"
+        target="_blank"
+        class="card project-card p2"
+      >
+        <div class="project-content">
+          <div class="icon-box"><i class="fa-solid fa-ribbon"></i></div>
+          <h3>Full Stack JS</h3>
+          <p>iNeuron - Web Dev</p>
+          <div class="tags">
+            <span>Cert</span>
+            <span>JS</span>
+          </div>
+        </div>
+        <div class="go-corner">
+          <div class="go-arrow">→</div>
+        </div>
+      </a>
+
+      <!-- Contact (Full Width) -->
+      <div class="card contact-card" id="contact">
+        <h2>Let's work together.</h2>
+        <p>
+          <a href="mailto:veerajinkya1@gmail.com">veerajinkya1@gmail.com</a>
+        </p>
+        <p>+91 8655373383</p>
+      </div>
+    </main>
+
+    <!-- GSAP & Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
